@@ -1,0 +1,35 @@
+.footnote {
+    background-color: $black-c-bkg;
+    height: 341px;
+}
+
+.footnote__wrp {
+    display: flex;
+    justify-content: space-between;
+    padding: 103px 0 103px 0 ;
+}
+
+.footnote__item-img {
+    margin: 0 0 0 160px;
+    fill: rgb(214, 57, 109);
+}
+
+.footnote__item-img:hover {
+    fill: white;
+}
+
+.footnote__item-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: $white-c-color;
+    text-align: center;
+    margin: 28px 0 16px 0;
+}
+
+.footnote__item-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: $white-c-color;
+    text-align: center;
+    width: 360px;
+}

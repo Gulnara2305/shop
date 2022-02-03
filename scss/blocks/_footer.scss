@@ -1,0 +1,128 @@
+.footer {
+    background-image: url(../img/contrast.jpg);   
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer__columns {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.footer__columns-column {
+    color: $blak-color;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+    flex-direction: column;
+    padding: 86px 0 126px 0;
+    text-align: center;
+}
+
+.footer__columns-column-coment-img {
+    margin-bottom: 40px;
+}
+
+.footer__columns-coment-text {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 24px;
+    margin: 0 auto;
+    max-width: 360px;
+    font-family: Lato;
+}
+
+.footer__columns-column-form-title {
+    font-size: 24px;
+    width: 700;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.footer__columns-column-form-text {
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.footer__columns-column-form-button {
+    align-items: center;
+    background-color: #e1e1e1;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 356px;
+    overflow: hidden;
+}
+
+.footer__columns-column-form-button-email {
+    background-color: #e1e1e1;
+    border: none;
+    padding-left: 21px;
+}
+
+.footer__columns-column-form-button-btn {
+    background:$pink-color;
+    border: none;
+    color: $white-color;
+    padding: 16px 18px;
+}
+
+.footer__copy {
+    background-color: $black-c-bkg;
+}
+
+.footer__copy-row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copy-text {
+    color: $white-color;
+    font-size: 16px;
+    padding: 30px 0;
+    line-height: 19px;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__item {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    margin-right: 8px;
+    transition: color .3s linear;
+    width: 32px;
+}
+
+.social-icon {
+    fill: $blak-color;
+    transition: color 0.3s linear;
+}
+
+.social__item:hover {
+    background-color: #F16D7F;
+}
+
+.social__item:active {
+    opacity: 0.29;
+    background-color: white;
+}
+
+.social__item:hover .social-icon {
+    fill: white;
+}
+
+.social__item:active .social-icon {
+    opacity: 0.9;
+    fill: black;
+}
